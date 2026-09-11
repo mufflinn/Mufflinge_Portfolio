@@ -2521,3 +2521,13 @@ h1 span {
 	height: 100% !important;
 	object-fit: cover !important;
 }
+
+/* REMOVE HOVER PLAY BUTTON */
+.project-card .play-button,
+.project-card .project-overlay::before,
+.project-card .project-overlay::after,
+.project-card .project-media::before,
+.project-card .project-media::after {
+    display: none !important;
+    content: none !important;
+}
